@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+
+.nav-button{
+  color: wheat;
+  background: linear-gradient(to right, green 50%, #0a0a0a 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  box-shadow: 0 0 20px green;
+
+}
+
+.nav-button:hover{
+  background-position: left bottom;
+}
+
+
+.nav-link{
+  @apply text-amber-50 font-bold hover:underline underline-offset-4 transition-all duration-500 hover:underline-offset-8 decoration-green-500 decoration-2 whitespace-nowrap
+}
+
+
+.mycontainer{
+  @apply py-5 px-10
+}
+
+.nav-mobile{
+  @apply hover:underline underline-offset-4 transition-all duration-500 hover:underline-offset-8 decoration-green-500 decoration-2
+}
